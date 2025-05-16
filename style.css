@@ -1,0 +1,35 @@
+body {
+  background-color: black;
+  color: white;
+  border: white 1px solid;
+  width: 100vw;
+  height: 100vh;
+  background-image: url("./images/image.png");
+  background-position-y:1500px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+form{
+    border:solid 1px white;
+    height:500px;
+    width:800px;
+    border-radius:20px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    background-color:rgba(0, 0, 0, 0.199);
+    backdrop-filter:blur(4px);
+}
+input{
+    padding:10px;
+    margin:30px;
+    border-radius:10px ;
+    border:none;
+}
+button{
+    padding:10px 20px;
+    border:none;
+    border-radius:10px;
+    backgrround}
